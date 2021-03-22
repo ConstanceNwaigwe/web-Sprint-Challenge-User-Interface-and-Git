@@ -66,6 +66,26 @@ p {
     line-height: 1.4;
 }
 
+header{
+  margin:1% auto;
+}
+header nav{
+  display:flex;
+  justify-content:center;
+  
+  width:46%;
+  margin:2% auto;
+}
+header nav a{
+  text-decoration:none;
+  color:black;
+  padding:3% 2% 0% 7.3%;
+}
+.header-img{
+  margin:0 auto;/*% 0% 1% 29%;*/
+  display:block;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +132,37 @@ p {
     justify-content: center;
 }
 
+#one{
+  background-color:teal;
+}
+#two{
+  background-color:gold;
+}
+#three{
+  background-color:cadetblue;
+}
+#four{
+  background-color:coral;
+}
+#five{
+  background-color:crimson;
+}
+#six{
+  background-color:forestgreen;
+}
+#seven{
+  background-color:darkorchid;
+}
+#eight{
+  background-color:hotpink;
+}
+#nine{
+  background-color:indigo;
+}
+#ten{
+  background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +194,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.about{
+  padding-bottom:2%;
+  border-bottom:1px dashed black;
+}
+
+.working-pics{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  padding:4% 0% 2% 0%;
+}
+.work-divs{
+  width:48%;
+  border-bottom:1px dashed black;
+  margin-bottom:5%;
+  padding-bottom:4%;
+}
+.work-divs img{
+  width:100%;
+}
+.work-divs a{
+  text-decoration:none;
+  border:2px solid black;
+  border-radius:17%;
+  color:black;
+  padding:3% 6% 3% 6%;
+}
+
+.work-divs p{
+  padding-bottom:10%;
+}
+
+.together{
+  padding-bottom:5%;
 }
